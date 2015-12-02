@@ -1,0 +1,100 @@
+
+State Machine - |animation|test_plotting:FSM|CS
+Name CS.COLLISION CS.X CS.L CS.R CS.D CS.U CS.A 
+CS.A 0 0 0 0 0 0 0 
+CS.U 0 0 0 0 0 1 1 
+CS.D 0 0 0 0 1 0 1 
+CS.R 0 0 0 1 0 0 1 
+CS.L 0 0 1 0 0 0 1 
+CS.X 0 1 0 0 0 0 1 
+CS.COLLISION 1 0 0 0 0 0 1 
+
+State Machine - |animation|test_plotting:FSM|fsm:my_fsm4|current_state
+Name current_state.INCREMENT_Y current_state.INCREMENT_X current_state.DRAW_DOT current_state.WAIT_TENTH_CYCLE current_state.WAIT_NINTH_CYCLE current_state.WAIT_EIGHTH_CYCLE current_state.WAIT_SEVENTH_CYCLE current_state.WAIT_SIXTH_CYCLE current_state.WAIT_FIFTH_CYCLE current_state.WAIT_FOURTH_CYCLE current_state.WAIT_THIRD_CYCLE current_state.WAIT_SECOND_CYCLE current_state.WAIT_FIRST_CYCLE current_state.MOVE_ORIGIN current_state.WAIT_STATE 
+current_state.WAIT_STATE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.MOVE_ORIGIN 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.WAIT_FIRST_CYCLE 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.WAIT_SECOND_CYCLE 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.WAIT_THIRD_CYCLE 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.WAIT_FOURTH_CYCLE 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.WAIT_FIFTH_CYCLE 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.WAIT_SIXTH_CYCLE 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.WAIT_SEVENTH_CYCLE 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.WAIT_EIGHTH_CYCLE 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.WAIT_NINTH_CYCLE 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.WAIT_TENTH_CYCLE 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.DRAW_DOT 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.INCREMENT_X 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.INCREMENT_Y 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |animation|test_plotting:FSM|fsm:my_fsm3|current_state
+Name current_state.INCREMENT_Y current_state.INCREMENT_X current_state.DRAW_DOT current_state.WAIT_TENTH_CYCLE current_state.WAIT_NINTH_CYCLE current_state.WAIT_EIGHTH_CYCLE current_state.WAIT_SEVENTH_CYCLE current_state.WAIT_SIXTH_CYCLE current_state.WAIT_FIFTH_CYCLE current_state.WAIT_FOURTH_CYCLE current_state.WAIT_THIRD_CYCLE current_state.WAIT_SECOND_CYCLE current_state.WAIT_FIRST_CYCLE current_state.MOVE_ORIGIN current_state.WAIT_STATE 
+current_state.WAIT_STATE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.MOVE_ORIGIN 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.WAIT_FIRST_CYCLE 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.WAIT_SECOND_CYCLE 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.WAIT_THIRD_CYCLE 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.WAIT_FOURTH_CYCLE 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.WAIT_FIFTH_CYCLE 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.WAIT_SIXTH_CYCLE 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.WAIT_SEVENTH_CYCLE 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.WAIT_EIGHTH_CYCLE 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.WAIT_NINTH_CYCLE 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.WAIT_TENTH_CYCLE 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.DRAW_DOT 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.INCREMENT_X 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.INCREMENT_Y 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |animation|test_plotting:FSM|fsm:my_fsm2|current_state
+Name current_state.INCREMENT_Y current_state.INCREMENT_X current_state.DRAW_DOT current_state.WAIT_TENTH_CYCLE current_state.WAIT_NINTH_CYCLE current_state.WAIT_EIGHTH_CYCLE current_state.WAIT_SEVENTH_CYCLE current_state.WAIT_SIXTH_CYCLE current_state.WAIT_FIFTH_CYCLE current_state.WAIT_FOURTH_CYCLE current_state.WAIT_THIRD_CYCLE current_state.WAIT_SECOND_CYCLE current_state.WAIT_FIRST_CYCLE current_state.MOVE_ORIGIN current_state.WAIT_STATE 
+current_state.WAIT_STATE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.MOVE_ORIGIN 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.WAIT_FIRST_CYCLE 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.WAIT_SECOND_CYCLE 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.WAIT_THIRD_CYCLE 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.WAIT_FOURTH_CYCLE 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.WAIT_FIFTH_CYCLE 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.WAIT_SIXTH_CYCLE 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.WAIT_SEVENTH_CYCLE 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.WAIT_EIGHTH_CYCLE 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.WAIT_NINTH_CYCLE 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.WAIT_TENTH_CYCLE 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.DRAW_DOT 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.INCREMENT_X 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.INCREMENT_Y 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |animation|test_plotting:FSM|fsm:my_fsm1|current_state
+Name current_state.INCREMENT_Y current_state.INCREMENT_X current_state.DRAW_DOT current_state.WAIT_TENTH_CYCLE current_state.WAIT_NINTH_CYCLE current_state.WAIT_EIGHTH_CYCLE current_state.WAIT_SEVENTH_CYCLE current_state.WAIT_SIXTH_CYCLE current_state.WAIT_FIFTH_CYCLE current_state.WAIT_FOURTH_CYCLE current_state.WAIT_THIRD_CYCLE current_state.WAIT_SECOND_CYCLE current_state.WAIT_FIRST_CYCLE current_state.MOVE_ORIGIN current_state.WAIT_STATE 
+current_state.WAIT_STATE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.MOVE_ORIGIN 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.WAIT_FIRST_CYCLE 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.WAIT_SECOND_CYCLE 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.WAIT_THIRD_CYCLE 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.WAIT_FOURTH_CYCLE 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.WAIT_FIFTH_CYCLE 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.WAIT_SIXTH_CYCLE 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.WAIT_SEVENTH_CYCLE 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.WAIT_EIGHTH_CYCLE 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.WAIT_NINTH_CYCLE 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.WAIT_TENTH_CYCLE 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.DRAW_DOT 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.INCREMENT_X 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.INCREMENT_Y 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |animation|test_plotting:FSM|fsm:my_fsm|current_state
+Name current_state.INCREMENT_Y current_state.INCREMENT_X current_state.DRAW_DOT current_state.WAIT_TENTH_CYCLE current_state.WAIT_NINTH_CYCLE current_state.WAIT_EIGHTH_CYCLE current_state.WAIT_SEVENTH_CYCLE current_state.WAIT_SIXTH_CYCLE current_state.WAIT_FIFTH_CYCLE current_state.WAIT_FOURTH_CYCLE current_state.WAIT_THIRD_CYCLE current_state.WAIT_SECOND_CYCLE current_state.WAIT_FIRST_CYCLE current_state.MOVE_ORIGIN current_state.WAIT_STATE 
+current_state.WAIT_STATE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.MOVE_ORIGIN 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.WAIT_FIRST_CYCLE 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.WAIT_SECOND_CYCLE 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.WAIT_THIRD_CYCLE 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.WAIT_FOURTH_CYCLE 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.WAIT_FIFTH_CYCLE 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.WAIT_SIXTH_CYCLE 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.WAIT_SEVENTH_CYCLE 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.WAIT_EIGHTH_CYCLE 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.WAIT_NINTH_CYCLE 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.WAIT_TENTH_CYCLE 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.DRAW_DOT 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.INCREMENT_X 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.INCREMENT_Y 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

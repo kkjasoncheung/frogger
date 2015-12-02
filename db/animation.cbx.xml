@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="animation">
+		<CBX_INST_ENTRY INSTANCE_NAME="|animation|test_plotting:FSM|lpm_ram_dq:my_ram_car|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_3b91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|animation|test_plotting:FSM|lpm_ram_dq:my_ram_frog|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_re91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|animation|test_plotting:FSM|lpm_ram_dq:my_ram_score2|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_rj91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|animation|vga_adapter:VGA|altsyncram:VideoMemory" CBX_FILE_NAME="altsyncram_shg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|animation|test_plotting:FSM|lpm_ram_dq:my_ram_lives|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_gi91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|animation|test_plotting:FSM|lpm_ram_dq:my_ram_score1|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_qj91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|animation|test_plotting:FSM|lpm_ram_dq:my_ram_score3|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_sj91.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

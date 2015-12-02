@@ -1,0 +1,11 @@
+Warning (10268): Verilog HDL information at keyboard.v(47): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at test_plotting.v(314): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at test_plotting.v(408): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at test_plotting.v(427): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at test_plotting.v(512): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at test_plotting.v(524): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at test_plotting.v(535): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at test_plotting.v(546): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at test_plotting.v(41): object "collision" differs only in case from object "COLLISION" in the same scope
+Info (10281): Verilog HDL Declaration information at test_plotting.v(37): object "x" differs only in case from object "X" in the same scope
+Warning (10268): Verilog HDL information at test_plotting.v(840): always construct contains both blocking and non-blocking assignments
